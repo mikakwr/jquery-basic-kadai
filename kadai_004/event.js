@@ -1,0 +1,10 @@
+$(function(){
+//htmlドキュメントが読み込み完了した時
+$(window).on('load',()=>{
+    console.log('loadイベントが発生しました');
+});
+//画面をスクロールした時
+$(window).on('scroll',()=>{
+    console.log('scrollイベントが発生しました');
+});
+});
